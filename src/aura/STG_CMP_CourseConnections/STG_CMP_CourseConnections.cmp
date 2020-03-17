@@ -9,7 +9,7 @@
   <aura:attribute name="allowBackfill" type="Boolean" default="false" />
   <aura:attribute name="backfillStarted" type="Boolean" default="false" />
   <aura:attribute name="startBackfillMessage" type="String" default="" />
-  <aura:attribute name="backFillToastIcon" type="String" default="" />
+  <aura:attribute name="backFillToastIcon" type="String" default="success" />
   <aura:attribute name="backFillToastClass" type="String" default="" />
   
   <div class="slds-hide" id="backFillToast" aura:id="backFillToast">
